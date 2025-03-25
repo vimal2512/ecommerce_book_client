@@ -1,0 +1,113 @@
+.book-container{
+  width: 300px;
+  margin:25px;
+}
+
+.book-poster{
+  width: 300px;
+  height: 500px;
+}
+
+.book-specs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-author{
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+  font-weight: 500;
+  font-style: oblique;
+  font-size: medium;
+}
+
+.book-name{
+  font-size: 25px;
+}
+
+.book-rating{
+  font-size: 25px;
+}
+
+.book-summary{
+  margin-top: 0;
+}
+
+.bookList-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.book-rating{
+  text-align: center;
+  text-decoration: wavy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.header {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 15px;
+}
+
+/* Reviews */
+.review-box {
+  background: #f8f8f8;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.review-box ul {
+  padding-left: 15px;
+}
+
+/* Input Field */
+.review-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+/* Buttons */
+.btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 7px 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
